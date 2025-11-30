@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editkaro | Sign In</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-box login">
+            <form action="">
+                <h1>Sign In</h1>
+                <div class="input-box">
+                    <input type="email" placeholder="Email" required>
+                    <i class="bx bxs-envelope"></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                    <i class="bx bxs-lock"></i>
+                </div>
+                <button type="submit" class="btn" id="login-btn">Sign In</button>
+                <p>or Sign In with social platforms</p>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <form action="">
+                <h1>Register</h1>
+                <div class="input-box">
+                    <input type="text" name="student_name" placeholder="Full Name" required>
+                    <i class="bx bxs-user"></i>
+                </div>
+                <div class="input-box">
+                    <input type="email" name="email" placeholder="Email" required>
+                    <i class="bx bxs-envelope"></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" name="password" placeholder="Password" required>
+                    <i class="bx bxs-lock"></i>
+                </div>
+                <button type="submit" class="btn" id="register-btn">Register</button>
+            </form>
+        </div>
+
+        <div class="toggle-box">
+            <div class="toggle-panel toggle-left">
+                <h1>Hello, Editor!</h1>
+                <p>Don't have an account? Join the team.</p>
+                <button class="btn register-btn" id="register">Register</button>
+            </div>
+            <div class="toggle-panel toggle-right">
+                <h1>Welcome Back!</h1>
+                <p>Already have an account? Sign in here.</p>
+                <button class="btn login-btn" id="login">Sign In</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="login.js" type="module"></script>
+</body>
+</html>
